@@ -9,6 +9,13 @@
     <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
 </head>
 <body>
+    <form>
+        <label>Which GitHub User would you like to explore</label>
+        <input type="text" name="user-input" id="user-input" placeholder="github username" required>
+        <input type="submit" value="Search">
+    </form>
+    <section class="user-results hidden">
+    </section>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src='index.js'></script>
 </body>
