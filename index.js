@@ -15,6 +15,7 @@ fetch("https://api.github.com/users/" + userInput + "/repos", requestOptions)
 }
 
 function showResult(result){
+    $('.user-results').children().remove()
     console.log(result)
     result.forEach(function(arrayItem){
         // console.log(arrayItem)
